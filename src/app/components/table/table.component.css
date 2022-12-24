@@ -1,0 +1,16 @@
+table {
+    background: white;
+    border: 1px solid  #9eb4e2;
+    margin: 0 auto;
+}
+
+th,tr,td {
+    border: 1px solid #9eb4e2;
+    padding: 1vmax 1vmax;
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+    padding: 1vh 0;
+} 

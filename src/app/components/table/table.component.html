@@ -1,0 +1,23 @@
+<div class="table">
+  <h2>{{title}}</h2>
+  <table>
+    <thead>
+      <tr>
+        <th>п/п</th>
+        <th>Наименование</th>
+        <th>Объем данных, {{tableData[0].mesurment_v}}</th>
+        <th>Скорость передачи, {{tableData[0].mesurment_st}}</th>
+        <th>Время передачи, {{tableData[0].mesurment_t}}</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let row of tableData">
+        <td>{{row.id}}</td>
+        <td>{{row.title}}</td>
+        <td>{{row.volume}}</td>
+        <td>{{row.name}}</td>
+        <td>{{row.value}}</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
