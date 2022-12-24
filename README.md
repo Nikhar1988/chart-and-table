@@ -1,5 +1,6 @@
 # ChartAndTable
 
+Видео-демонстрация проделанной работы https://disk.yandex.ru/i/SUV4L61T5I1WuQ 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.0.4.
 
 ## Development server
